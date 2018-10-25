@@ -8,6 +8,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+
+
 }
 
 *::after,
@@ -20,6 +23,8 @@ html {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     /* change this font stack to your own choices */
     line-height: 1.5;
+
+
 }
 
 p {}
@@ -41,7 +46,7 @@ img {
 *************************************************/
 header {
     padding: 1rem 2rem;
-    color: black;
+    color: ghostwhite;
 }
 
 header > h1 {
@@ -62,8 +67,9 @@ header {
     background-image: url("../img/hinh.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    border: 3px solid black;
+    border-width:10px 0 0 0;
     height: 300px;
-    margin-top: 20px;
     border-top: outset solid 10px;
     border-top-color: 10px solid red;
 
@@ -98,13 +104,16 @@ main {
 section {
     padding: 1rem 2rem;
 
+
 }
 
 section p {}
-section h1{
+
+section h1 {
     margin-bottom: 1rem;
 }
-section h2{
+
+section h2 {
     margin-bottom: 1rem;
 
 }
@@ -145,27 +154,35 @@ footer {}
 
     footer {
         display: grid;
+        border: 3px solid black;
+        border-width:10px 0 0 0;
         padding: 1rem 2rem;
-        height: 400px;
+        height: 500px;
         background-color: skyblue;
-        grid-template-columns: 1fr 1fr;
-        flex-flow: column;
-        align-items: center;
+        
+       
+
+
 
 
     }
 
     .foot nav {
-        display: grid;
+
+       display: flex;
+        justify-content: space-between;
         grid-template-columns: 1fr 1fr;
         grid-area: bottom;
         background-color: orange;
         grid-column: 1/ span 2;
+        
+
     }
 
     .foot section {
         grid-column: 1/ span 2;
         background-color: blanchedalmond;
+        padding: 0 0;
     }
 
     input {
@@ -178,6 +195,7 @@ footer {}
 
     #comment {
         width: 100%;
+        height: 90px;
     }
 }
 
