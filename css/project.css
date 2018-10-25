@@ -95,9 +95,19 @@ main {
     padding: 1rem 2rem;
 }
 
-section {}
+section {
+    padding: 1rem 2rem;
+
+}
 
 section p {}
+section h1{
+    margin-bottom: 1rem;
+}
+section h2{
+    margin-bottom: 1rem;
+
+}
 
 section p img {}
 
@@ -130,8 +140,7 @@ footer {}
     section p img {
         float: left;
         margin-right: 1rem;
-        margin-bottom: 0.5 rem;
-        width: 150px;
+        width: 25%;
     }
 
     footer {
