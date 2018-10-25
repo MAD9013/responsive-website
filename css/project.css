@@ -127,6 +127,13 @@ footer {}
             MEDIA QUERIES for layout
 *************************************************/
 @media (max-width: 599px) {
+    section p img {
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 0.5 rem;
+        width: 150px;
+    }
+
     footer {
         display: grid;
         padding: 1rem 2rem;
