@@ -67,32 +67,48 @@ header {
     background-image: url("../img/hinh.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border: 3px solid black;
-    border-width:10px 0 0 0;
+    border: 3px solid #bee45b;
+    border-width: 10px 0 0 0;
     height: 300px;
-    border-top: outset solid 10px;
-    border-top-color: 10px solid red;
-
-
-
-
-
 }
 
 /*************************************************
             NAVMENU
 *************************************************/
 nav {
+    display: flex;
     padding: 1rem 2rem;
+    width: 100%;
+    line-height: 30px;
+    background-color: #eeeeee;
+
+}
+
+nav a {
+    text-decoration: none;
+
 }
 
 nav > a,
-nav > a:visited,
-nav > a:link {}
+nav > a:link {
+    color: #1a0dab;
+}
 
-nav > a:active,
-nav > a:focus,
-nav > a:hover {}
+nav > a:visited {
+    color: #660099;
+}
+nav > a:hover {
+    color: #BEE45B;
+
+}
+
+nav > a:active{
+    color: #ff0000;
+}
+nav > a:focus {
+    color: #40ff00;
+}
+
 
 /*************************************************
             MAIN CONTENT
@@ -136,16 +152,45 @@ footer {}
 .foot dd {}
 
 .foot dd a,
-.foot dd a:visited {}
+.foot dd a:visited {
+    color: #660099;
+}
 
-.foot dd a:active,
+.foot dd a:active {
+    color:
+}
+
 .foot dd a:focus,
-.foot dd a:hover {}
+.foot dd a:hover {
+    border-bottom: 1px solid black;
+}
 
 /*************************************************
             MEDIA QUERIES for layout
 *************************************************/
 @media (max-width: 599px) {
+    .mainnav {
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainnav a {
+        border-bottom: 1px solid black;
+
+    }
+
+    section h1 {
+        margin-bottom: 1rem;
+        color: #bee45b;
+    }
+
+    section h2 {
+        margin-bottom: 1rem;
+        color: #bee45b;
+
+    }
+
     section p img {
         float: left;
         margin-right: 1rem;
@@ -154,13 +199,13 @@ footer {}
 
     footer {
         display: grid;
-        border: 3px solid black;
-        border-width:10px 0 0 0;
+        border: 3px solid #bee45b;
+        border-width: 10px 0 0 0;
         padding: 1rem 2rem;
         height: 500px;
-        background-color: skyblue;
-        
-       
+        background-color: #eeeeee;
+
+
 
 
 
@@ -169,19 +214,19 @@ footer {}
 
     .foot nav {
 
-       display: flex;
+        display: flex;
         justify-content: space-between;
         grid-template-columns: 1fr 1fr;
         grid-area: bottom;
-        background-color: orange;
+        background-color: #eeeeee;
         grid-column: 1/ span 2;
-        
+
 
     }
 
     .foot section {
         grid-column: 1/ span 2;
-        background-color: blanchedalmond;
+        background-color: #eeeeee;
         padding: 0 0;
     }
 
