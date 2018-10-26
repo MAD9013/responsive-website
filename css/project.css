@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 /* You must use a DIFFERENT FONT THAT THIS ONE as your webfont */
 
 /*************************************************
@@ -19,23 +19,13 @@
 }
 
 html {
-    font-size: 16px;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-family: Karla, Helvetica, Arial, sans-serif;
     /* change this font stack to your own choices */
     line-height: 1.5;
-
-
 }
 
 p {}
-
-a {}
-
-ul {}
-
-ol {}
-
-li {}
 
 img {
     width: 25%;
@@ -69,7 +59,7 @@ header {
     background-repeat: no-repeat;
     border: 3px solid #bee45b;
     border-width: 10px 0 0 0;
-    height: 300px;
+    height: 200px;
 }
 
 /*************************************************
@@ -97,14 +87,16 @@ nav > a:link {
 nav > a:visited {
     color: #660099;
 }
+
 nav > a:hover {
     color: #BEE45B;
 
 }
 
-nav > a:active{
+nav > a:active {
     color: #ff0000;
 }
+
 nav > a:focus {
     color: #40ff00;
 }
@@ -119,10 +111,8 @@ main {
 
 section {
     padding: 1rem 2rem;
-
-
 }
-
+s
 section p {}
 
 section h1 {
@@ -157,12 +147,16 @@ footer {}
 }
 
 .foot dd a:active {
-    color:
+    color: #ff0000;
 }
 
-.foot dd a:focus,
+.foot dd a:focus {
+    color: #40ff00;
+}
+
 .foot dd a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000000;
+    ;
 }
 
 /*************************************************
@@ -204,12 +198,6 @@ footer {}
         padding: 1rem 2rem;
         height: 500px;
         background-color: #eeeeee;
-
-
-
-
-
-
     }
 
     .foot nav {
@@ -220,8 +208,6 @@ footer {}
         grid-area: bottom;
         background-color: #eeeeee;
         grid-column: 1/ span 2;
-
-
     }
 
     .foot section {
