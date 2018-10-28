@@ -55,7 +55,7 @@ header > h2 {
 }
 
 header {
-    background-image: url("../img/hinh.jpg");
+    background-image: url("../img/imagedefault599.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border: 3px solid #bee45b;
@@ -239,7 +239,7 @@ footer {}
 
 @media (min-width: 600px) and (max-width:999px) {
     header {
-        background-image: url("../img/hinh.jpg");
+        background-image: url("../img/imagedefault999.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border: 3px solid #80bfff;
@@ -342,4 +342,12 @@ footer {}
 
 }
 
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    header {
+        background-image: url("../img/imagedefault.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border: 3px solid #bee45b;
+        border-width: 10px 0 0 0;
+        height: 200px;
+    }
