@@ -9,12 +9,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    counter-reset: 0;
+}
 *::after,
 *::before {
     box-sizing: inherit;
 }
 
+}
 html {
     font-size: 1em;
     font-family: Karla, Helvetica, Arial, sans-serif;
@@ -55,7 +58,7 @@ header > h2 {
 }
 
 header {
-    background-image: url("../img/imagedefault599.jpg");
+    background-image: url("../img/400.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border: 3px solid #bee45b;
@@ -136,7 +139,10 @@ footer {}
 
 .foot dl {}
 
-.foot dt {}
+.foot dt {
+    font-size: 1.414em;
+    padding-bottom: 5px;
+}
 
 .foot dd {}
 
@@ -241,7 +247,7 @@ footer {}
 
 @media (min-width: 600px) and (max-width:999px) {
     header {
-        background-image: url("../img/imagedefault999.jpg");
+        background-image: url("../img/700.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border: 3px solid #80bfff;
@@ -346,7 +352,7 @@ footer {}
 
 @media (min-width: 1000px) {
     header {
-        background-image: url("../img/imagedefault.jpg");
+        background-image: url("../img/1000.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border: 3px solid #ff6600;
@@ -364,6 +370,7 @@ footer {}
 
     nav > a:hover {
         border-bottom: 1px solid #ff6600;
+    
         color: #ff6600;
     }
 
@@ -413,6 +420,7 @@ footer {}
         padding: 1rem 2rem;
         height: 350px;
         background-color: #eeeeee;
+        
     }
 
     .foot nav {
