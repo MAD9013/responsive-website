@@ -40,14 +40,14 @@ header {
 
 header > h1 {
     padding-top: 20px;
-    color: #ff6600;
+    color: #FF6600;
     font-size: 2.827em;
 
 }
 
 header > h2 {
     padding-top: 20px;
-    color: #ff6600;
+    color: #FF6600;
     font-size: 1.999em;
 
 }
@@ -60,7 +60,7 @@ header {
     background-image: url("../img/400.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border: 3px solid #bee45b;
+    border: 3px solid #BEE45B;
     border-width: 10px 0 0 0;
     height: 200px;
 }
@@ -73,7 +73,7 @@ nav {
     padding: 1rem 1rem;
     width: 100%;
     line-height: 30px;
-    background-color: #eeeeee;
+    background-color: #EEEEEE;
 
 }
 
@@ -83,7 +83,7 @@ nav a {
 
 nav > a,
 nav > a:link {
-    color: #1a0dab;
+    color: #1A0DAB;
 }
 
 nav > a:visited {
@@ -96,11 +96,11 @@ nav > a:hover {
 }
 
 nav > a:active {
-    color: #ff0000;
+    color: #FF0000;
 }
 
 nav > a:focus {
-    color: #40ff00;
+    color: #40FF00;
 }
 
 
@@ -151,11 +151,11 @@ footer {}
 }
 
 .foot dd a:active {
-    color: #ff0000;
+    color: #FF0000;
 }
 
 .foot dd a:focus {
-    color: #40ff00;
+    color: #40FF00;
 }
 
 .foot dd a:hover {
@@ -184,13 +184,13 @@ footer {}
 
     section h1 {
         margin-bottom: 1rem;
-        color: #bee45b;
+        color: #BEE45B;
         font-size: 1.999em;
     }
 
     section h2 {
         margin-bottom: 1rem;
-        color: #bee45b;
+        color: #BEE45B;
         font-size: 1.414em;
     }
 
@@ -202,11 +202,11 @@ footer {}
 
     footer {
         display: grid;
-        border: 3px solid #bee45b;
+        border: 3px solid #BEE45B;
         border-width: 10px 0 0 0;
         padding: 1rem 2rem;
         height: 500px;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
     }
 
     .docs {
@@ -222,13 +222,13 @@ footer {}
         grid-template-areas: "A B";
         grid-template-columns: 1fr 1fr;
         grid-area: bottom;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
         grid-column: 1/ span 2;
     }
 
     .foot section {
         grid-column: 1/ span 2;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
         padding: 0 0;
     }
 
@@ -251,7 +251,7 @@ footer {}
         background-image: url("../img/700.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        border: 3px solid #80bfff;
+        border: 3px solid #80BFFF;
         border-width: 10px 0 0 0;
         height: 200px;
     }
@@ -291,13 +291,13 @@ footer {}
 
     section h1 {
         margin-bottom: 1rem;
-        color: #80bfff;
+        color: #80BFFF;
         font-size: 2.827em;
     }
 
     section h2 {
         margin-bottom: 1rem;
-        color: #80bfff;
+        color: #80BFFF;
         font-size:
 
     }
@@ -305,11 +305,11 @@ footer {}
 
     footer {
         display: grid;
-        border: 3px solid #80bfff;
+        border: 3px solid #80BFFF;
         border-width: 10px 0 0 0;
         padding: 1rem 2rem;
         height: 500px;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
     }
 
     .docs {
@@ -329,13 +329,13 @@ footer {}
         display: grid;
         grid-template-areas: "A B";
         grid-area: bottom;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
         grid-column: 1/ span 2;
     }
 
     .foot section {
         grid-column: 1/ span 2;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
         padding: 0 0;
     }
 
@@ -356,7 +356,7 @@ footer {}
         background-image: url("../img/1000.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        border: 3px solid #ff6600;
+        border: 3px solid #FF6600;
         border-width: 10px 0 0 0;
         height: 200px;
     }
@@ -370,9 +370,9 @@ footer {}
     }
 
     nav > a:hover {
-        border-bottom: 1px solid #ff6600;
+        border-bottom: 1px solid #FF6600;
 
-        color: #ff6600;
+        color: #FF6600;
     }
 
     main {
@@ -402,25 +402,25 @@ footer {}
 
     section h1 {
         margin-bottom: 1rem;
-        color: #ff6600;
+        color: #FF6600;
         font-size: 2.827em;
     }
 
     section h2 {
         margin-bottom: 1rem;
-        color: #ff6600;
+        color: #FF6600;
         font-size: 1.999em;
 
     }
 
     footer {
         display: grid;
-        border: 3px solid #ff6600;
+        border: 3px solid #FF6600;
         border-width: 10px 0 0 0;
         grid-template-areas: "A B";
         padding: 1rem 2rem;
         height: 350px;
-        background-color: #eeeeee;
+        background-color: #EEEEEE;
 
     }
 
