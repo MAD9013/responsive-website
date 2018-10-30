@@ -25,7 +25,10 @@ html {
     font-weight: 400;
 }
 
-p {}
+p {
+    font-size: 1em;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+}
 
 img {
     width: 25%;
@@ -125,7 +128,9 @@ section h2 {
     margin-bottom: 1rem;
 }
 
-section p img {}
+section p img {
+    width:25%;
+}
 
 /*************************************************
             FOOTER
@@ -205,7 +210,7 @@ footer {}
         border: 3px solid #BEE45B;
         border-width: 10px 0 0 0;
         padding: 1rem 2rem;
-        height: 500px;
+        height: auto;
         background-color: #EEEEEE;
     }
 
@@ -266,10 +271,13 @@ footer {}
     main {
         padding: 1rem 1rem;
         display: grid;
+        grid-template-columns: 1fr 1fr;
+
         grid-template-areas:
             "A A"
             "B C";
     }
+
 
     .first {
         grid-area: A;
@@ -286,7 +294,22 @@ footer {}
     section p img {
         float: left;
         margin-right: 1rem;
-        width: 55%;
+
+    }
+
+    .first img {
+        width: 25%;
+        height: auto;
+    }
+
+    .second img {
+        width: 100%;
+        height: auto;
+    }
+
+    .third img {
+        width: 100%;
+        height: auto;
     }
 
     section h1 {
@@ -298,7 +321,7 @@ footer {}
     section h2 {
         margin-bottom: 1rem;
         color: #80BFFF;
-        font-size:
+        font-size: 1.999em;
 
     }
 
@@ -308,7 +331,7 @@ footer {}
         border: 3px solid #80BFFF;
         border-width: 10px 0 0 0;
         padding: 1rem 2rem;
-        height: 500px;
+        height: auto;
         background-color: #EEEEEE;
     }
 
@@ -378,6 +401,7 @@ footer {}
     main {
         padding: 1rem 1rem;
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
             "A B C";
     }
@@ -397,7 +421,7 @@ footer {}
     section p img {
         float: left;
         margin-right: 1rem;
-        width: 55%;
+        width: 50%;
     }
 
     section h1 {
@@ -419,7 +443,7 @@ footer {}
         border-width: 10px 0 0 0;
         grid-template-areas: "A B";
         padding: 1rem 2rem;
-        height: 350px;
+        height: auto;
         background-color: #EEEEEE;
 
     }
